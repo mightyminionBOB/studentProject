@@ -21,14 +21,15 @@
 ---
 
 ## Архитектура проекта
-
+```
+StockAnalysis_py/
 │
-├── bot/           # Логика Telegram-бота
-│ ├── main.py      # Точка входа
-│ ├── handlers.py  # Обработчики команд и callback
-│ ├── keyboards.py # Inline-кнопки
-│ ├── messages.py  # Тексты сообщений
-│ ├── states.py    # FSM состояния
+├── bot/               # Логика Telegram-бота
+│ ├── main.py          # Точка входа
+│ ├── handlers.py      # Обработчики команд и callback
+│ ├── keyboards.py     # Inline-кнопки
+│ ├── messages.py      # Тексты сообщений
+│ ├── states.py        # FSM состояния
 │ └── init.py
 │
 ├── services/          # Работа с API и анализ данных
@@ -36,10 +37,11 @@
 │ ├── analytics.py     # Обработка данных и RSI
 │ └── init.py
 │
-├── config/ # Конфигурация проекта
+├── config/            # Конфигурация проекта
 │ ├── settings.py
 │ └── init.py
 │
-├── .env.example     # Пример переменных окружения
-├── requirements.txt # Зависимости проекта
+├── .env.example       # Пример переменных окружения
+├── requirements.txt   # Зависимости проекта
 └── README.md
+
