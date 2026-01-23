@@ -84,3 +84,7 @@ pip install -r requirements.txt
 BOT_TOKEN=<ваш_токен_бота>
 ALPHA_VANTAGE_API_KEY=<ваш_api_key>
 ```
+### 5. Запуск бота
+```
+python bot/main.py
+```
