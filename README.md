@@ -64,5 +64,22 @@ StockAnalysis_py/
 ### 1. Клонирование репозитория
 
 ```bash
-git clone <repository_url>
-cd financial_bot
+git clone https://github.com/mightyminionBOB/studentProject.git
+cd studentProject
+```
+### 2. Создание виртуального окружения
+```
+python -m venv venv
+source venv/bin/activate      # macOS / Linux
+venv\Scripts\activate         # Windows
+```
+### 3. Установка зависимостей
+```pip install -r requirements.txt
+```
+### 4. Настройка переменных окружения
+```
+Создайте файл .env в корне проекта, указав:
+
+BOT_TOKEN=<ваш_токен_бота>
+ALPHA_VANTAGE_API_KEY=<ваш_api_key>
+```
