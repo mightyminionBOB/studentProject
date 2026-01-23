@@ -44,7 +44,7 @@ StockAnalysis_py/
 ├── .env.example       # Пример переменных окружения
 ├── requirements.txt   # Зависимости проекта
 └── README.md
-
+```
 
 ---
 
@@ -74,7 +74,8 @@ source venv/bin/activate      # macOS / Linux
 venv\Scripts\activate         # Windows
 ```
 ### 3. Установка зависимостей
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
 ```
 ### 4. Настройка переменных окружения
 ```
