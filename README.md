@@ -45,3 +45,24 @@ StockAnalysis_py/
 ├── requirements.txt   # Зависимости проекта
 └── README.md
 
+
+---
+
+## Технологии
+
+- Python 3.9
+- aiogram 2.25.2
+- requests
+- pandas
+- python-dotenv
+- Alpha Vantage API
+
+---
+
+## Установка и запуск
+
+### 1. Клонирование репозитория
+
+```bash
+git clone <repository_url>
+cd financial_bot
